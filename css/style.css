@@ -1,0 +1,12 @@
+/* Custom styles (optional) */
+
+/* Example: Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Example: add shadow hover effect for gallery images */
+#gallery img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}

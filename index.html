@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Labor of Love Community Outreach (LLCO)</title>
+  
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Custom JS -->
+  <script defer src="js/main.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+ <!-- Header / Navigation -->
+<header class="bg-white shadow">
+  <div class="container mx-auto flex justify-between items-center p-4 relative">
+    
+    <!-- Logo + Text -->
+    <a href="#home" class="flex items-center space-x-2">
+      <img src="images/llocLogo.png" alt="LLCO Logo" class="h-12">
+      <span class="text-2xl font-bold text-green-700">LLCO</span>
+    </a>
+
+    <!-- Desktop Navigation (Centered, without Give) -->
+    <nav class="hidden md:flex space-x-8 font-semibold absolute left-1/2 transform -translate-x-1/2">
+      <a href="#home" class="hover:text-green-700">Home</a>
+      <a href="#blog" class="hover:text-green-700">Blog</a>
+      <a href="#contact" class="hover:text-green-700">Contact</a>
+    </nav>
+
+    <!-- Special "Give" Button (Right Side) -->
+    <a href="#give" class="hidden md:inline-block bg-red-600 text-white px-4 py-2 rounded font-bold hover:bg-red-700 transition">
+      Give
+    </a>
+
+    <!-- Mobile Menu Button (Still Right-Aligned, next to Give on mobile) -->
+    <button id="mobile-menu-btn" class="md:hidden text-green-700 text-2xl focus:outline-none ml-4">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <nav id="mobile-menu" class="hidden flex-col space-y-2 bg-white px-4 pb-4 md:hidden font-semibold">
+    <a href="#home" class="block hover:text-green-700">Home</a>
+    <a href="#blog" class="block hover:text-green-700">Blog</a>
+    <a href="#contact" class="block hover:text-green-700">Contact</a>
+    <a href="#give" class="block bg-red-600 text-white px-4 py-2 rounded font-bold hover:bg-red-700 transition text-center">Give</a>
+  </nav>
+</header>
+
+
+
+  <!-- Hero Section -->
+<section id="home" class="relative bg-green-700 text-white h-screen flex items-center justify-center">
+  <!-- Background image -->
+  <img src="images/image1.jpg" alt="Community outreach" class="absolute inset-0 w-full h-full object-cover brightness-75">
+
+  <!-- Overlay content -->
+  <div class="relative z-10 text-center px-4">
+    <h1 class="text-4xl sm:text-5xl font-bold mb-4">Welcome to Labor of Love Community Outreach</h1>
+    <p class="text-lg sm:text-xl mb-6 max-w-2xl mx-auto">Saving lives, building communities, reaching the world. Join us to make a difference today!</p>
+    <div class="mt-4">
+    <a href="https://www.gofundme.com/f/help-us-deliver-medical-care-to-rural-kenya?lang=en_US&utm_campaign=man_ss_icons&utm_medium=customer&utm_source=copy_link&attribution_id=sl%3A9164972b-3d7f-47bb-8731-f464200b1f43" 
+       target="_blank" 
+       class="inline-block bg-red-600 text-white px-6 py-3 rounded font-bold hover:bg-red-700 transition">
+      Donate Now
+    </a>
+  </div>
+  </div>
+</section>
+
+  
+<!-- About Us -->
+<section id="about" class="bg-gray-50 py-16">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row items-center md:space-x-12">
+      
+      <!-- Text Content -->
+      <div class="md:w-1/2 mb-8 md:mb-0">
+        <h2 class="text-3xl font-bold text-green-700 mb-6">About Us</h2>
+        <p class="mb-6">The Early beginnings of Evangelist Xavia Forrester's journey has supported social welfare missions throughout the Caribbean and the United States of America. In recent times, through her oversight, Labor of Love Community Outreach (LLCO) which is based in Fort Lauderdale, Florida, USA, has reflected its operation in the Sub-Saharan region of Africa. Since the year 2020 she established Joseph’s Community Outreach Ghana (JCOG) commencing a Clean Water Project in Shai Hills, Ghana. Since 2023 LLCO has expanded its mission to Eastern Africa, specifically within Rwanda and Kenya, providing counseling support, skills transfer training, church leadership training, educational scholarship support, and feeding programs for thousands of meals for participants within the target communities. Today our mission continues.</p>
+
+        <h3 class="text-2xl font-semibold mt-4">Vision Statement</h3>
+        <p class="mb-4">To transform lives through the power of faith in Jesus Christ, while promoting spiritual health, economic empowerment, and global gospel outreach.</p>
+
+        <h3 class="text-2xl font-semibold mt-4">Mission Statement</h3>
+        <p>To win souls, build strong and healthy communities, while promoting spiritual, physical, and economical well-being through the life-changing gospel of Jesus Christ.</p>
+
+        <!-- Scripture -->
+<blockquote class="italic font-bold text-base sm:text-lg max-w-3xl mx-auto mb-6 mt-12 text-center text-blue-600">
+  "For God is not unrighteous to forget your work and labour of love, which ye have shewed toward his name, 
+  in that ye have ministered to the saints, and do minister." <br> 
+  - Hebrews 6:10 (KJV)
+</blockquote>
+
+      </div>
+
+      <!-- Image Content -->
+      <div class="md:w-1/2">
+        <img src="images/image2.jpeg" alt="Community Outreach" class="rounded shadow-lg w-full object-cover">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Projects -->
+<section id="projects" class="bg-gray-100 py-16 px-4">
+  <div class="container mx-auto">
+    <div class="flex flex-col md:flex-row md:space-x-12">
+
+      <!-- Left Side: Current & Upcoming Projects -->
+      <div class="md:w-1/2 mb-8 md:mb-0">
+        <h2 class="text-3xl font-bold text-green-700 mb-6">Our Projects</h2>
+
+        <!-- Current Projects -->
+<div class="mb-6">
+  <h3 class="text-2xl font-semibold mb-4">Current Projects</h3>
+  <ul class="list-disc ml-5 space-y-2">
+    <li>Nasyanda for Jesus Medical Camp 2025: Description</li>
+  </ul>
+  <!-- Donate Now Button -->
+  <div class="mt-4">
+    <a href="https://www.gofundme.com/f/help-us-deliver-medical-care-to-rural-kenya?lang=en_US&utm_campaign=man_ss_icons&utm_medium=customer&utm_source=copy_link&attribution_id=sl%3A9164972b-3d7f-47bb-8731-f464200b1f43" 
+       target="_blank" 
+       class="inline-block bg-red-600 text-white px-6 py-3 rounded font-bold hover:bg-red-700 transition">
+      Donate Now
+    </a>
+  </div>
+</div>
+
+        <!-- Upcoming Projects -->
+        <div>
+          <h3 class="text-2xl font-semibold mb-4">Upcoming Projects</h3>
+          <ul class="list-disc ml-5 space-y-2">
+            <li>To be announced: Description</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Right Side: Other Ministries -->
+      <div class="md:w-1/2">
+        <h2 class="text-3xl font-bold text-green-700 mb-6 text-center">Other Ministries</h2>
+        <ul class="list-disc ml-5 space-y-2 text-center md:text-left">
+          <li>Ghana-</li>
+          <li>Rwanda-</li>
+          <li>Kenya-</li>
+          <li>USA-</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Accomplishments Section -->
+<section id="accomplishments" class="bg-gray-50 py-16 px-4">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-green-700 mb-12 text-center">Our Accomplishments</h2>
+
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div class="bg-white rounded shadow-lg p-6 text-center">
+        <i class="fa-solid fa-hand-holding-heart text-4xl text-green-700 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">5000+ Lives Impacted</h3>
+        <p>Through community outreach, food drives, and spiritual guidance.</p>
+      </div>
+      <div class="bg-white rounded shadow-lg p-6 text-center">
+        <i class="fa-solid fa-school text-4xl text-green-700 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Educational Programs</h3>
+        <p>Supporting youth education and skills development in our community.</p>
+      </div>
+      <div class="bg-white rounded shadow-lg p-6 text-center">
+        <i class="fa-solid fa-leaf text-4xl text-green-700 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Counseling and Mentorship</h3>
+        <p>Creating opportunities for networking, leadership training and church planting</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Video Section -->
+<section id="video" class="bg-gray-100 py-16 px-4 text-center">
+  <h2 class="text-3xl font-bold text-green-700 mb-8">Watch Our Impact</h2>
+  
+  <!-- Centered Standard YouTube Embed -->
+  <div class="flex justify-center">
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+            title="LLCO Video" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+
+
+<!-- Give / Ways to Give -->
+<section id="give" class="bg-green-700 text-white py-20 px-4 text-center">
+  <h2 class="text-4xl font-bold mb-6">Ways to Give</h2>
+  <p class="mb-6 text-xl max-w-2xl mx-auto">
+    Your support helps LLCO continue community programs, provide resources, and make a real impact. 
+    Every gift counts!
+  </p>
+  
+  <ul class="space-y-4 mb-8 text-lg">
+    <li>
+      <img src="https://flagcdn.com/us.svg" alt="USA Flag" class="inline w-6 h-6 mr-2">
+      <strong>USA:</strong> Zelle – <span class="font-mono">+1 772 800 9856</span>
+    </li>
+    <li>
+      <img src="https://flagcdn.com/ke.svg" alt="Kenya Flag" class="inline w-6 h-6 mr-2">
+      <strong>Kenya:</strong> M-Pesa – <span class="font-mono">+254 715 104 262</span>
+    </li>
+    <li>
+      <img src="https://flagcdn.com/gh.svg" alt="Ghana Flag" class="inline w-6 h-6 mr-2">
+      <strong>Ghana:</strong> MTN/MoMo – <span class="font-mono">+233 541 646 683</span>
+    </li>
+  </ul>
+
+  <a href="https://www.gofundme.com/f/help-us-deliver-medical-care-to-rural-kenya?lang=en_US&utm_campaign=man_ss_icons&utm_medium=customer&utm_source=copy_link&attribution_id=sl%3A9164972b-3d7f-47bb-8731-f464200b1f43" 
+     target="_blank" 
+     class="bg-white text-green-700 px-8 py-4 rounded font-bold hover:bg-gray-100 transition text-xl">
+    Give Now via GoFundMe
+  </a>
+</section>
+
+
+<!-- Founder Section -->
+<section id="founder" class="bg-gray-50 py-16 px-4">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-green-700 mb-8 text-center">Founder</h2>
+
+    <div class="flex flex-col items-center md:flex-row md:items-start md:space-x-12">
+      
+      <!-- Founder Image -->
+      <div class="mb-6 md:mb-0">
+        <img src="images/founder.jpeg" alt="Evangelist Xavia Forrester" class="w-48 h-48 rounded-full shadow-lg object-cover">
+      </div>
+
+      <!-- Founder Bio -->
+      <div class="md:w-3/4">
+        <h3 class="text-2xl font-semibold mb-4">Evangelist Xavia Forrester, AA, AS, BHSM, MBA, MPH, EDD (Doctoral Candidate)</h3>
+        <p class="mb-4">Evangelist Xavia Forrester is a dedicated servant of God, a visionary leader, and a passionate advocate for community empowerment. Born in Jamaica, she is married and blessed with a family of six. She is the co-founder of Labor of Love Community Outreach USA, an organization committed to service, evangelism, and holistic community development.</p>
+        
+        <p class="mb-4">A retired U.S. Navy Veteran who faithfully served in Iraq and Afghanistan, Evangelist Forrester’s life reflects resilience, sacrifice, and purpose. She is a missionary, social entrepreneur, community developer, and public health professional, using her diverse skills and experiences to transform lives across the globe. Evangelist Forrester is also the co-author of the book the <em>Revealing Truth of Christ</em> (2010). Above all, she is a firm believer in Jesus Christ as her Lord and Savior, guiding her mission to spread the Gospel while serving humanity.</p>
+        
+        <h4 class="text-xl font-semibold mb-2 mt-4">Education & Professional Experience</h4>
+        <ul class="list-disc ml-5 space-y-1 mb-4">
+          <li>Doctoral Candidate – Doctor of Education (Ed.D)</li>
+          <li>Master of Public Health – Community Health Leadership (Honors)</li>
+          <li>Master of Business Administration (Honors)</li>
+          <li>Bachelor of Science in Human Services Management (Honors)</li>
+          <li>Associate Degrees in Liberal Arts and Science</li>
+          <li>Retired Military Iraq/Afghanistan War Veteran – United States Navy</li>
+          <li>Career Counselor – U.S. Department of Labor & Vocational Rehabilitation</li>
+        </ul>
+
+        <h4 class="text-xl font-semibold mb-2 mt-4">Affiliations & Service</h4>
+        <ul class="list-disc ml-5 space-y-1 mb-4">
+          <li>Joseph’s Community Outreach – Ghana, Africa (2021–Present)</li>
+          <li>Labor of Love Community Outreach – Fort Lauderdale, FL (2019–Present)</li>
+          <li>The Wounded Warrior Project – Alumni Member (2008–Present)</li>
+          <li>Jewish Voice Ministries – Donor for Water Purification & Feeding Programs (2014–Present)</li>
+          <li>The Willing Soldiers Ministry – Lauderhill, FL (2008–Present)</li>
+          <li>Gospel Messengers Rwanda – Evangelism, Feeding Program, Leadership Training, Family Counseling & Skills Transfer Training (2023–2025)</li>
+          <li>Past service with American Red Cross, Feed the Children America, United States Veterans Association, and United Methodist Church, Coral Springs (Missionary support to Haiti & Jamaica)</li>
+        </ul>
+
+        <h4 class="text-xl font-semibold mb-2 mt-4">Guiding Mission</h4>
+        <p>Evangelist Forrester’s mission is rooted in faith, service, and transformation. Whether through preaching, counseling, or community development, she is committed to uplifting lives, spreading the love of Christ, and creating lasting impact for generations to come.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Team -->
+<section id="team" class="container mx-auto py-16 px-4">
+  <h2 class="text-3xl font-bold text-green-700 mb-8 text-center">Our Team</h2>
+  <div class="flex justify-center">
+    <div class="text-center">
+      <!-- Placeholder for team member image -->
+      <!-- <div class="w-32 h-32 mx-auto bg-gray-300 rounded-full mb-4"></div> -->
+      <div class="overflow-hidden rounded-lg shadow-lg">
+        <img src="images/image5.webp" alt="Landscape 2" class="w-full h-auto object-cover hover:scale-105 transition-transform duration-500">
+      </div>
+      <!-- Name placeholder -->
+      <h3 class="font-semibold text-xl">Updating</h3>
+      <!-- Role placeholder -->
+      <!-- <p>Updating</p> -->
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section class="py-12 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-center mb-8">Gallery</h2>
+
+    <!-- Container for images -->
+    <div id="galleryGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </div>
+</section>
+
+<!-- Portrait Image Section -->
+<section id="portrait" class="py-16 bg-gray-100">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">Our Portrait</h2>
+    <div class="flex justify-center">
+      <div class="overflow-hidden rounded-xl shadow-lg w-80">
+        <img src="images/image7.jpeg" alt="Portrait" class="w-full h-auto object-cover">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Prayer Requests -->
+  <section id="prayer" class="bg-gray-100 py-16 px-4">
+    <h2 class="text-3xl font-bold text-green-700 mb-8 text-center">Prayer Requests</h2>
+    <form class="max-w-lg mx-auto bg-white p-6 rounded shadow space-y-4">
+      <div>
+        <label class="block mb-1 font-semibold">Name</label>
+        <input type="text" class="w-full border border-gray-300 p-2 rounded" placeholder="Your Name">
+      </div>
+      <div>
+        <label class="block mb-1 font-semibold">Prayer Request</label>
+        <textarea class="w-full border border-gray-300 p-2 rounded" rows="4" placeholder="Write your request here"></textarea>
+      </div>
+      <button type="submit" class="bg-green-700 text-white px-4 py-2 rounded font-semibold hover:bg-green-800 transition">Submit</button>
+    </form>
+  </section>
+
+<!-- Footer -->
+<footer class="bg-white py-6 text-center text-gray-600 border-t mt-16">
+  <p>
+    Contact us: 
+    <a href="mailto:missions@llcoglobal.org" class="hover:underline">missions@llcoglobal.org</a> | 
+    Phone: +254-715-104 262 | 
+    <a href="https://wa.me/19547560795" target="_blank" class="text-green-700 hover:underline flex items-center justify-center md:inline-flex">
+      <i class="fa-brands fa-whatsapp mr-2"></i> +1 954-756-0795
+    </a>
+  </p>
+
+  <p class="mt-2">
+    Website: 
+    <a href="https://llcoglobal.org" target="_blank" class="text-green-700 hover:underline">
+      llcoglobal.org
+    </a>
+  </p>
+
+  <p class="mt-2">
+    Follow us on 
+    <a href="#" class="text-green-700 hover:underline ml-2"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#" class="text-green-700 hover:underline ml-2"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#" class="text-green-700 hover:underline ml-2"><i class="fa-brands fa-twitter"></i></a>
+  </p>
+
+  <p class="mt-2">&copy; 2025 Labor of Love Community Outreach</p>
+</footer>
+
+
+
+</body>
+</html>
